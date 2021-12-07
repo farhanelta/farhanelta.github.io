@@ -45,13 +45,12 @@ body{
 .media{
     display: flex;
     align-items: center;
-    position: absolute;
-    margin-left: 27px;
+    margin-left: 33px;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 50%;
-    gap: 67%;
+    gap: 65%;
     padding: 0 10%;
 }
 
