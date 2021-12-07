@@ -6,6 +6,8 @@ gap: 30px;*/
 
 body{
     background-image: url("../assets/Background2.png");
+    height: 100%;
+    width: auto;
     box-sizing: border-box;
     padding: auto;
     margin: auto;
