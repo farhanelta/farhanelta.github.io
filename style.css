@@ -42,22 +42,6 @@ body{
     align-items: center;
 }
 
-.media{
-    display: flex;
-    align-items: center;
-    margin-left: 33px;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 50%;
-    gap: 65%;
-    padding: 0 10%;
-}
-
-.media > img{
-    width: 50px;
-    height: 50px;
-}
-
 
 .hero-container{
     display: flex;
@@ -102,6 +86,11 @@ body{
     padding: 0 10%; 
 }
 
+.info2 > img{
+    width: 200px;
+    height: 200px;
+}
+
 .line{
     height: 30px;
     width: 840px;
@@ -118,7 +107,37 @@ body{
     font-size: 0;
 }
 
-.info2 > img{
-    width: 200px;
-    height: 200px;
+.media{
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 50%;
+    gap: 65%;
+    padding: 0 10%;
 }
+
+.text{
+    transition: opacity 0.5s ease-in-out;
+    position: absolute; top: 1060px; left: 165px; opacity: 0;
+}
+
+.text2{
+    transition: opacity 0.5s ease-in-out;
+    position: absolute; top: 1060px; left: 600px; opacity: 0;
+}
+
+.text3{
+    transition: opacity 0.5s ease-in-out;
+    position: absolute; top: 1060px; left: 1100px; opacity: 0;
+}
+
+
+:hover .instagram{opacity: 1;}
+:hover .text{opacity: 1;}
+:hover .email{opacity: 1;}
+:hover .text2{opacity: 1;}
+:hover .twitter{opacity: 1;}
+:hover .text3{opacity: 1;}
