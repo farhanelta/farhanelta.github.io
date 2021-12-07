@@ -5,7 +5,10 @@ height: 30px;
 gap: 30px;*/
 
 body{
-    background-image: url("../assets/Background2.png");
+    background: url("../assets/Background2.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     box-sizing: border-box;
     padding: auto;
