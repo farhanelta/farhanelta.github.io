@@ -46,11 +46,12 @@ body{
     display: flex;
     align-items: center;
     position: absolute;
-    margin-left: 150px;
+    margin-left: 27px;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 50%;
-    gap: 50%;
+    gap: 67%;
     padding: 0 10%;
 }
 
@@ -100,7 +101,23 @@ body{
     margin-top: 90px;
     width: 50%;
     gap: 44%;
-    padding: 0 10%;   
+    padding: 0 10%; 
+}
+
+.line{
+    height: 30px;
+    width: 840px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 83%;
+    margin: 0 10%;
+    box-shadow: 0 2px 1px 0 rgba(187, 157, 224, 100); 
+}
+
+.line > p {
+    font-size: 0;
 }
 
 .info2 > img{
