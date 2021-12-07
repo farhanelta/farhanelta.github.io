@@ -4,19 +4,18 @@
 height: 30px;
 gap: 30px;*/
 
-body{
+body, html{
     background: url("../assets/Background2.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 100%;
     box-sizing: border-box;
     padding: auto;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     color: rgba(53, 27, 85, 100);
 }
-
 .navbar{
     height: 90px;
     width: 828px;
