@@ -5,11 +5,11 @@ height: 30px;
 gap: 30px;*/
 
 body, html{
+    height: 100%;
     background: url("../assets/Background2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
-    height: 100%;
     box-sizing: border-box;
     padding: auto;
     margin: auto;
