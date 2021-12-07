@@ -1,0 +1,109 @@
+/*background: rgb(rgb(43, 43, 43), green, blue);*/
+
+/*width: 30px;
+height: 30px;
+gap: 30px;*/
+
+body{
+    background-image: url("../assets/Background2.png");
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(53, 27, 85, 100);
+}
+
+.navbar{
+    height: 90px;
+    width: 828px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 83%;
+    margin: 0 10%;
+    box-shadow: 0 2px 1px 0 rgba(187, 157, 224, 100);
+}
+
+.nav-logo{
+    margin-top: 5px;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.nav-selection{
+    margin-top: 5px;
+    display: flex;
+    gap: 50px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+    gap: 50%;
+    padding: 0 10%;
+}
+
+.media > img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: -10;
+    padding: 0 10%;
+}
+
+
+.info{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    padding: 0 10%;
+    margin: 0 13.8%;
+}
+
+.info > h3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 45px;
+    line-height: 25px;
+}
+
+.info > p{
+    width: 50%;
+    font-weight: 500;
+    margin: 0 190px;
+}
+
+.info2{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 50%;
+    gap: 44%;
+    padding: 0 10%;   
+}
+
+.info2 > img{
+    width: 200px;
+    height: 200px;
+}
